@@ -10,11 +10,35 @@ body {
 	font-family: 'Times New Roman', serif; 
 }
 
+#header{
+  color: grey;
+  font-size: 5em;
+  font-weight: normal;
+  font-family: 'Baskerville', serif;
+}
+
+#about{
+  font-size: 2em;
+  color: grey;
+  font-family: 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+#press{
+  font-size: 2em;
+  color: grey;
+  font-family: 'Times New Roman', serif;
+  font-weight: bold;
+}
+
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+  padding: 0 45px 20px;
+  padding-left: 50px;   /* LC width */
+  padding-right: 50px;  /* RC width */
 }
+
 
 /* Write all remaining styles here */
